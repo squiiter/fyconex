@@ -66,7 +66,7 @@ export default function PricingCard() {
             </li>
           ))}
         </ul>
-        <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://seguro.fyconexacademi.store/r/KT4KOA2M8D" target="_blank" rel="noopener noreferrer">
           <button
             className={`w-full py-3 rounded-lg font-medium transition-all duration-300 ${isHovered
               ? "bg-gradient-to-r from-cyan-500 to-purple-600 text-white shadow-[0_0_15px_rgba(124,58,237,0.5)]"
