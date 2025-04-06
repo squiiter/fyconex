@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "João S.",
     role: "Trabalhador Autônomo",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/joaos.jpeg?height=80&width=80",
     content:
       "Com esse combo, consegui montar projetos inteiros em horas. Economia absurda de tempo e dinheiro!",
     stars: 5,
@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: "Carlos Mendes",
     role: "Estudante de Escola Pública",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/carlosmendes.jpeg?height=80&width=80",
     content:
       "Paguei R$19 e recebi ferramentas que custariam MILHARES. Mudou meu jogo.",
     stars: 5,
@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: "Mariana Costa",
     role: "Mãe Solo Empreendedora",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/marianacosta.jpeg?height=80&width=80",
     content:
       "Simplesmente genial. Uso pra conteúdo, vendas e automações. Tudo no mesmo lugar.",
     stars: 5,
