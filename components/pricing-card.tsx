@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Check } from "lucide-react"
+import Link from "next/link"
 
 export default function PricingCard() {
   const [isHovered, setIsHovered] = useState(false)
@@ -65,16 +66,16 @@ export default function PricingCard() {
             </li>
           ))}
         </ul>
-
-        <button
-          className={`w-full py-3 rounded-lg font-medium transition-all duration-300 ${
-            isHovered
+        <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+          <button
+            className={`w-full py-3 rounded-lg font-medium transition-all duration-300 ${isHovered
               ? "bg-gradient-to-r from-cyan-500 to-purple-600 text-white shadow-[0_0_15px_rgba(124,58,237,0.5)]"
               : "bg-purple-600 text-white"
-          }`}
-        >
-          GARANTIR MEU ACESSO AGORA
-        </button>
+              }`}
+          >
+            GARANTIR MEU ACESSO AGORA
+          </button>
+        </a>
 
         <p className="text-center text-gray-400 text-sm mt-4">🔐 Vitalício | 🎁 Sem mensalidade | 🕒 Limitado aos 50 primeiros
         </p>

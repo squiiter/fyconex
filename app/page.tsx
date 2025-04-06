@@ -3,6 +3,7 @@ import Benefits from "@/components/benefits"
 import Testimonials from "@/components/testimonials"
 import Faq from "@/components/faq"
 import PricingCard from "@/components/pricing-card"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -15,14 +16,16 @@ export default function Home() {
         <div className="container mx-auto px-4 py-32 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 animate-pulse">
-            O FUTURO DA PRODUTIVIDADE DIGITAL COMEÇA AQUI
+              O FUTURO DA PRODUTIVIDADE DIGITAL COMEÇA AQUI
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
-            Transforme sua rotina com as ferramentas mais poderosas de IA, design, vídeo, voz e automação — tudo em um só lugar, por um valor simbólico.
+              Transforme sua rotina com as ferramentas mais poderosas de IA, design, vídeo, voz e automação — tudo em um só lugar, por um valor simbólico.
             </p>
-            <button className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full text-white font-medium hover:shadow-[0_0_15px_rgba(124,58,237,0.8)] transition-all duration-300">
-              CONTINUE LENDO
-            </button>
+            <Link href="#price">
+              <button className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full text-white font-medium hover:shadow-[0_0_15px_rgba(124,58,237,0.8)] transition-all duration-300">
+                CONTINUE LENDO
+              </button>
+            </Link>
           </div>
 
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
@@ -63,7 +66,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 relative">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">
-            Perguntas Frequentes
+              Perguntas Frequentes
             </span>
             <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-cyan-500 to-purple-500"></div>
           </h2>
@@ -74,12 +77,12 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 bg-black relative">
+      <section id="price" className="py-20 bg-black relative">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/10 to-cyan-900/10 z-0" />
         <div className="container mx-auto px-4 relative z-10">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 relative">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">
-            Invista no Seu Potencial
+              Invista no Seu Potencial
             </span>
             <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-cyan-500 to-purple-500"></div>
           </h2>
